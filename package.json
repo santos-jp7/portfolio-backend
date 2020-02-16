@@ -1,0 +1,31 @@
+{
+  "name": "sjp7",
+  "version": "1.0.0",
+  "description": "Servidor do meu portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santos-jp7/portfolio-backend.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Jean Pierre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santos-jp7/portfolio-backend/issues"
+  },
+  "homepage": "https://github.com/santos-jp7/portfolio-backend#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1",
+    "nodemailer": "^6.4.2",
+    "yup": "^0.28.1"
+  }
+}
